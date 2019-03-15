@@ -1,6 +1,5 @@
-require 'test_helper'
 
-
+require 'rails/test_help'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
