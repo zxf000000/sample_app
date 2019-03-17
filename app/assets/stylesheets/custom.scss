@@ -17,10 +17,15 @@ textarea {
 
 .center {
   text-align: center;
+  alignment: center;
 }
 
 .center h1 {
   margin-bottom: 10px;
+}
+
+.contaier div {
+  align-items: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
