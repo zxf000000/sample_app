@@ -4,7 +4,7 @@
 
 $light-gray: #777;
 body {
-  padding-top: 60px;
+  padding-top: 0;
 }
 
 section {
@@ -75,6 +75,7 @@ footer {
   color: $light-gray;
   a {
     color: #555;
+    alignment: center;
     &:hover {
       color: #222;
     }

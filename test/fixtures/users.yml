@@ -7,3 +7,10 @@
 #two:
 #  name: MyString
 #  email: MyString
+# 测试用户登录所需的固件
+# 创建一个有效固件之后, 在测试中可以用一下方法获取这个用户: user = users(:micheal)
+micheal:
+  name: Micheal Example
+  email: micheal@example.com
+  password_digest: <%= User.digest('password') %>
+
